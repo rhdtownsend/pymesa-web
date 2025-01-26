@@ -26,7 +26,7 @@ Repository = "https://github.com/rhdtownsend/pymesa-web/"
 Issues = "https://github.com/rhdtownsend/pymesa-web/issues"
 
 [tool.hatch.version]
-path = "src/pymesa-web/_version.py"
+path = "src/pymesa_web/_version.py"
 
 [tool.hatch.build.targets.sdist]
 only-include = ["src"]

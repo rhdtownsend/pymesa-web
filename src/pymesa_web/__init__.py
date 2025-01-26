@@ -7,8 +7,6 @@ by the MESA-Web stellar evolution portal.
 
 """
 
-__version__ = '2024.11.20'
-
 # Imports
 
 import os.path as op
@@ -121,7 +119,7 @@ def read_history(filename):
 
 # Read a MESA-Web profile file
 
-def read_profile(filename)
+def read_profile(filename):
 
     """Read data from a MESA-Web profile file
     
@@ -347,7 +345,7 @@ def __read_data(filename, rev=False):
 
     # Create data structure
 
-    data = Table(meta=dict(zip(header_names, header_values)))
+    data = at.Table(meta=dict(zip(header_names, header_values)))
 
     # Populate the structure
 
